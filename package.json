@@ -1,5 +1,5 @@
 {
-    "name": "casper",
+    "name": "casper-rubyci",
     "description": "A clean, minimal default theme for the Ghost publishing platform",
     "demo": "https://demo.ghost.io",
     "version": "5.4.11",
@@ -175,5 +175,8 @@
         "extends": [
             "@tryghost:theme"
         ]
+    },
+    "dependencies": {
+        "tailwindcss": "^3.3.2"
     }
 }

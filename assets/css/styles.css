@@ -1,0 +1,8 @@
+.form-cover:after {
+  content: "\a0";
+  display: block;
+  border-bottom: 22px solid #111827;
+  position: relative;
+  bottom: 85px;
+  width: 300px;
+}

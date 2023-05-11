@@ -1,0 +1,294 @@
+{{!< default}}
+
+<main class="gh-main">
+  <div class="isolate bg-gray-900">
+    <div>
+      <div style="background-image: url('images/overlay.png'); background-position: 0% 0%; background-size: cover;">
+        {{> "navigation"}}
+
+        <div>
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl text-center pb-28">
+              <h1 class="text-4xl font-bold tracking-wide text-white text-5xl sm:text-6xl" style="padding-top: 240px;font-family: 'Lexend'; font-style: normal;">Your Ruby tests up to</h1>
+              <h1 class="font-bold tracking-wide text-white text-5xl sm:text-6xl mt-5">256x faster!</h1>
+              <p class="mt-10 text-lg leading-8 text-white">2-min setup with no extra code, tools and UI built for your Rails Application</p>
+              <div class="flex justify-center items-center text-lg leading-8 text-white">
+                RubyCI is completely integrated with <img src="{{ asset 'images/github_logo.svg'}}" class="px-3" alt="">GitHub & <img src="{{ asset 'images/slack_logo.svg'}}" class="px-3" alt="">Slack</div>
+              <div class="mt-16 flex items-center justify-center gap-x-6">
+                <button href="#" class="rounded-lg px-5 py-1 w-40 text-base font-semibold leading-7 text-indigo-700 border border-indigo-700 drop-shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:bg-indigo-400 hover:text-white">Start Building</button>
+                <a href="#video" class="rounded-lg px-5 py-1 w-40 text-base font-semibold leading-7 text-red-500 border border-red-500 drop-shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:bg-red-500 hover:text-white">Watch a Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-4 pb-10">
+          <div class="mb-10">
+            <p class="font-medium tracking-wide text-center text-sm text-gray-500">
+              TRUSTED BY
+            </p>
+            <ul class="mt-4 flex items-center justify-center">
+              <li>
+                <ul class="flex items-center">
+                  <li class="flex">
+                    <img src="{{ asset 'images/makerist-logo.svg'}}" alt="">
+                  </li>
+                  <li class="flex">
+                    <img src="{{ asset 'images/agenda_logo.svg'}}" alt="">
+                  </li>
+                  <li class="flex ml-3">
+                    <img src="{{ asset 'images/group_logos.svg'}}" alt="">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <section id="features" class="relative overflow-hidden pb-28 pt-20 sm:py-32">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative"><div class="max-w-2xl md:mx-auto md:text-center xl:max-w-none"><h2 class="font-display mt-4 text-white text-3xl sm:text-4xl md:text-5xl" style="font-family: 'Lexend'; font-style: normal;">Boost productivity with RubyCI</h2></div><div class="mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"><div class="-mx-4 overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5"><div class="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal" role="tablist" aria-orientation="vertical"><div id="panel_tab1" class="group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6 lg:py-12 bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"><h3><button class="font-display text-lg [&amp;:not(:focus-visible)]:focus:outline-none font-semibold text-gray-50" role="tab" type="button"><span class="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none"></span>Build quality software faster!</button></h3><p class="mt-2 hidden text-sm lg:block text-gray-400">With our automated optimization tools</p></div><div id="panel_tab2" class="group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6 lg:py-12 hover:bg-white/10 lg:hover:bg-white/5"><h3><button class="font-display text-lg [&amp;:not(:focus-visible)]:focus:outline-none font-semibold text-gray-50" role="tab" type="button"><span class="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none"></span>No more searching</button></h3><p class="mt-2 hidden text-sm lg:block text-gray-400">Know what test is exactly broken and where it is</p></div><div id="panel_tab3" class="group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6 lg:py-12 hover:bg-white/10 lg:hover:bg-white/5"><h3><button class="font-display text-lg [&amp;:not(:focus-visible)]:focus:outline-none font-semibold text-gray-50" role="tab" type="button"><span class="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none"></span>Slowest files report</button></h3><p class="mt-2 hidden text-sm lg:block text-gray-400">Know where are those bottlenecks</p></div><div id="panel_tab4" class="group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6 lg:py-12 hover:bg-white/10 lg:hover:bg-white/5"><h3><button class="font-display text-lg [&amp;:not(:focus-visible)]:focus:outline-none font-semibold text-gray-50" role="tab" type="button"><span class="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none"></span>Stay on track!</button></h3><p class="mt-2 hidden text-sm lg:block text-gray-400">Get notified that the build failed</p></div></div></div><div class="lg:col-span-7"><div id="panel_img1"><div class="relative sm:px-6 lg:hidden"><div class="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div></div><div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"><img src="{{ asset 'images/interface.svg'}}" sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem" alt="" width="2174" height="1464" decoding="async" data-nimg="1" class="w-full" style="color:transparent"></div></div><div id="panel_img2" style="display: none;"><div class="relative sm:px-6 lg:hidden"><div class="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div></div><div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"><img alt="" sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem" src="{{ asset 'images/ruby_2_3.svg'}}" width="2174" height="1464" decoding="async" data-nimg="1" class="w-full" style="color:transparent"></div></div><div id="panel_img3" style="display:none"><div class="relative sm:px-6 lg:hidden"><div class="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div></div><div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"><img alt="" sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem" src="{{ asset 'images/ruby_2_3.svg'}}" width="2174" height="1464" decoding="async" data-nimg="1" class="w-full" style="color:transparent"></div></div><div id="panel_img4" style="display:none"><div class="relative sm:px-6 lg:hidden"><div class="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div></div><div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"><img alt="" sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem" src="{{ asset 'images/ruby_4.svg'}}" width="2174" height="1464" decoding="async" data-nimg="1" class="w-full" style="color:transparent"></div></div></div></div>
+          </div>
+        </section>
+
+        <div>
+          <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 sm:pt-20 lg:pt-26 pb-28">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl text-white text-center mb-8" style="font-family: 'Lexend'; font-style: normal;">Power your projects</h1>
+            <div class="mx-auto mt-16 max-w-2xl sm:mt-12 lg:mt-16 lg:max-w-none">
+              <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                <div>
+                  <dt class="flex items-center justify-center">
+                    <img src="{{ asset 'images/push.svg'}}" alt="">
+                  </dt>
+                  <div class="text-center tracking-wide text-gray-400">STEP 1</div>
+                  <p class="text-white mt-6 text-lg font-bold text-center" style="font-family: 'Lexend'; font-style: normal;">Push your code <br /> to GitHub</p>
+                  <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-sm text-white text-center">
+                    <p class="flex-auto">It will immediately trigger a build <br /> GitHub and Slack</p>
+                  </dd>
+                </div>
+
+                <div>
+                  <dt class="flex items-center justify-center">
+                    <img src="{{ asset 'images/play.svg'}}" alt="">
+                  </dt>
+                  <div class="text-center tracking-wide text-gray-400">STEP 2</div>
+                  <p class="text-white mt-6 text-lg font-bold text-center" style="font-family: 'Lexend'; font-style: normal;">Run the tests</p>
+                  <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-sm text-white text-center">
+                    <p class="flex-auto">You can see your tests running<br /> in real time & parallelized <br /> up to 256 machines</p>
+                  </dd>
+                </div>
+
+                <div>
+                  <dt class="flex items-center justify-center">
+                    <img src="{{ asset 'images/post-build.svg'}}" alt="">
+                  </dt>
+                  <div class="text-center tracking-wide text-gray-400">STEP 3</div>
+                  <p class="text-white mt-6 text-lg font-bold text-center" style="font-family: 'Lexend'; font-style: normal;">Post-build actions</p>
+                  <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-sm text-white text-center">
+                    <p class="flex-auto">Slack notifications, deployments,<br /> webhooks, you name it</p>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+
+        <div id="video">
+          <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 sm:pt-20 lg:pt-26">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl text-white text-center mb-4" style="font-family: 'Lexend'; font-style: normal;">The best CI for your Rails application</h1>
+            <p class="mt-4 leading-8 text-white text-center">Learn the simplicity of RubyCI in just two minutes</p>
+            <div class="flex justify-center mt-14">
+              <iframe width="820" height="500" src="https://www.youtube.com/embed/inmO4EIRDnY" title="Your RSpec tests running in less than 5 minutes again." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding-top: 180px;">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+              <p class="mt-2 text-3xl sm:text-4xl md:text-5xl text-white sm:text-5xl" style="font-family: 'Lexend'; font-style: normal;">Pricing Plans</p>
+            </div>
+            <p class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-white">We guarantee the best value for your money</p>
+            <div class="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+              <div class="rounded-3xl p-8 xl:p-10">
+                <p class="flex items-baseline gap-x-1">
+                  <span class="text-4xl font-bold tracking-tight text-indigo-700" style="font-family: 'Lexend'; font-style: normal;">Free</span>
+                </p>
+                <div class="flex items-center justify-between gap-x-4 mt-4">
+                  <h3 id="tier-freelancer" class="text-lg font-semibold leading-8 text-white" style="font-family: 'Lexend'; font-style: normal;">Small</h3>
+                </div>
+                <p class="text-sm leading-6 text-gray-300">For small projects</p>
+                <a href="#" aria-describedby="tier-freelancer" class="mt-6 block rounded-md py-2 px-3 text-center text-sm leading-6 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-indigo-500 text-white hover:bg-indigo-600 focus-visible:outline-white">Get started</a>
+                <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-300 xl:mt-10">
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    A platform built specifically <br />for the Ruby community
+                  </li>
+
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Unlimited projects, users and builds
+                  </li>
+                </ul>
+              </div>
+
+              <div class="rounded-3xl p-8 xl:p-10 bg-white/5">
+                <p class="flex items-baseline gap-x-1">
+                  <!-- Price, update based on frequency toggle state -->
+                  <span class="text-4xl font-bold tracking-tight text-red-500" style="font-family: 'Lexend'; font-style: normal;">$19</span>
+                  <!-- Payment frequency, update based on frequency toggle state -->
+                  <span class="text-4xl font-semibold leading-6 text-red-500" style="font-family: 'Lexend'; font-style: normal;">/mo</span>
+                </p>
+                <div class="flex items-center justify-between gap-x-4 mt-4">
+                  <h3 id="tier-startup" class="text-lg font-semibold leading-8 text-white" style="font-family: 'Lexend'; font-style: normal;">Performance</h3>
+                </div>
+                <p class="text-sm leading-6 text-gray-300">Grow As Much As You Need</p>
+                <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md py-2 px-3 text-center text-sm leading-6 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-red-500 text-white shadow-sm hover:bg-red-700 focus-visible:outline-red-700">Get started</a>
+                <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-300 xl:mt-10">
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Everything from Small 
+                  </li>
+
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Scale your tests to run up to 256x faster
+                  </li>
+
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Priority on faster machines
+                  </li>
+
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Exclusive Slack channel for support
+                  </li>
+                </ul>
+              </div>
+
+              <div class="rounded-3xl p-8 xl:p-10">
+                <p class="flex items-baseline gap-x-1">
+                  <span class="text-4xl font-bold tracking-tight text-indigo-700" style="font-family: 'Lexend'; font-style: normal;">Custom</span>
+                </p>
+                <div class="flex items-center justify-between gap-x-4 mt-4">
+                  <h3 id="tier-enterprise" class="text-lg font-semibold leading-8 text-white" style="font-family: 'Lexend'; font-style: normal;">Enterprise</h3>
+                </div>
+                <p class="text-sm leading-6 text-gray-300">Unlimited Possibilities</p>
+                <a href="#" aria-describedby="tier-enterprise" class="mt-6 block rounded-md py-2 px-3 text-center text-sm leading-6 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-indigo-500 text-white hover:bg-indigo-600 focus-visible:outline-white">Get started</a>
+                <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-300 xl:mt-10">
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Any customizations for your project
+                  </li>
+
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Scale as many parallelism as you need
+                  </li>
+
+                  <li class="flex gap-x-3">
+                    <svg class="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                    Personal discounts
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="mx-auto max-w-7xl px-6 lg:px-8" style="padding-top: 180px;">
+            <div class="mx-auto max-w-2xl text-center">
+              <div class="mx-auto max-w-4xl text-center">
+                <p class="mt-2 text-3xl sm:text-4xl md:text-5xl text-white sm:text-5xl" style="font-family: 'Lexend'; font-style: normal;">Get started today!</p>
+              </div>
+              <p class="mt-8 text-lg leading-8 text-white">RubyCI is the fastest and smartest CI platform for your Ruby/Rails project</p>
+              <div class="mt-12 flex items-center justify-center gap-x-6">
+                <a href="#" class="rounded-lg px-5 py-1 w-40 text-base font-semibold leading-7 text-indigo-700 border border-indigo-700 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:bg-indigo-400 hover:text-white">Start Building</a>
+                <a href="#" class="rounded-lg px-5 py-1 w-40 text-base font-semibold leading-7 text-red-500 border border-red-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:bg-red-500 hover:text-white">Let's chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="pt-24 lg:pt-24 mt-10">
+            <p class="font-medium tracking-wide text-center text-sm text-gray-500">
+              LOVED BY
+            </p>
+          </div>
+
+          <div class="mx-auto max-w-7xl px-6 lg:px-8 pb-24">
+            <div class="mx-auto flow-root max-w-2xl sm:mt-10 lg:mx-0 lg:max-w-none">
+              <div class="-mt-8 sm:-mx-4 grid grid-cols-1 lg:grid-cols-3 sm:text-[0]">
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                  <figure class="rounded-2xl bg-white/5 p-8 text-sm leading-6">
+                    <blockquote class="text-white">
+                      <p>I've used everything from GA actions to CircleCI to Bitbucket Pipelines (yuck) and ruby.ci is running circles around each!</p>
+                    </blockquote>
+                    <figcaption class="mt-6 flex justify-between items-center gap-x-4">
+                      <div>
+                        <div class="font-semibold text-white">John Doe</div>
+                        <div class="text-gray-400">CEO at Lynch LLC</div>
+                      </div>
+                      <img src="{{ asset 'images/Ruby.svg'}}" class="h-10 w-10" alt="">
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                  <figure class="rounded-2xl bg-white/5 p-8 text-sm leading-6">
+                    <blockquote class="text-white">
+                      <p>I've used everything from GA actions to CircleCI to Bitbucket Pipelines (yuck) and ruby.ci is running circles around each! </p>
+                    </blockquote>
+                    <figcaption class="mt-6 flex justify-between items-center gap-x-4">
+                      <div>
+                        <div class="font-semibold text-white">John Doe</div>
+                        <div class="text-gray-400">CEO at Lynch LLC</div>
+                      </div>
+                      <img src="{{ asset 'images/Jonas.svg'}}" class="h-10 w-10" alt="">
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                  <figure class="rounded-2xl bg-white/5 p-8 text-sm leading-6">
+                    <blockquote class="text-white">
+                      <p>I've used everything from GA actions to CircleCI to Bitbucket Pipelines (yuck) and ruby.ci is running circles around each! </p>
+                    </blockquote>
+                    <figcaption class="mt-6 flex justify-between items-center gap-x-4">
+                      <div>
+                        <div class="font-semibold text-white">John Doe</div>
+                        <div class="text-gray-400">CEO at Lynch LLC</div>
+                      </div>
+                      <img src="{{ asset 'images/Betty.svg'}}" class="h-10 w-10" alt="">
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{> "footer"}}
+      </div>
+    </div>
+  </div>
+</main>

@@ -18,6 +18,7 @@ const autoprefixer = require('autoprefixer');
 const colorFunction = require('postcss-color-mod-function');
 const cssnano = require('cssnano');
 const easyimport = require('postcss-easy-import');
+const tailwind = require('tailwindcss')
 
 const REPO = 'TryGhost/Casper';
 const REPO_READONLY = 'TryGhost/Casper';
@@ -50,6 +51,7 @@ function css(done) {
         postcss([
             easyimport,
             colorFunction(),
+            tailwind(),
             autoprefixer(),
             cssnano()
         ]),

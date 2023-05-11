@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,kBAGE,gCAAiC,CAEjC,WAAY,CAJZ,aAAc,CACd,aAAc,CAEd,iBAAkB,CAElB,WACF","file":"styles.css","sourcesContent":[".form-cover:after {\n  content: \"\\a0\";\n  display: block;\n  border-bottom: 22px solid #111827;\n  position: relative;\n  bottom: 85px;\n  width: 300px;\n}\n"]}
